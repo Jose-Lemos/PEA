@@ -34,9 +34,22 @@ body{
     margin-right: 10px;
 }
 
+.drive-container a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 10px;
+    padding: 15px 30px 15px 10px;
+}
+
 .contacts-container{
     margin-left: 10px;
     margin-right: 10px;
+}
+
+.contacts-container a{
+    text-decoration: none;
 }
 
 .whatsapp-container{
@@ -44,6 +57,9 @@ body{
     margin-right: 10px;
 }
 
+.whatsapp-container a{
+    text-decoration: none;
+}
 
 .link{
     display: flex;
@@ -68,11 +84,15 @@ body{
 
 .link a{
     text-decoration: none;
+}
+
+.link p{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     text-align: center;
     color: white;
     margin-left: 10px;
+    padding: 15px 30px 15px 10px;
 }
 
 .footer {
@@ -113,7 +133,7 @@ body{
     background-color: rgb(17, 211, 224);
 }
 
-.contact a{
+.contact p{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     margin-left: 10px;
