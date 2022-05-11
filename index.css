@@ -27,15 +27,30 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
 }
+
+.drive-container{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.contacts-container{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.whatsapp-container{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 
 .link{
     display: flex;
     justify-content: center;
     align-items: center;
     border: 2px solid rgb(17, 211, 224);
-    border-radius: 20px;
+    border-radius: 15px;
     margin-top: 15px;
     background-color: rgb(17, 211, 224);
 }
@@ -57,6 +72,7 @@ body{
     font-size: 20px;
     text-align: center;
     color: white;
+    margin-left: 10px;
 }
 
 .footer {
@@ -91,6 +107,10 @@ body{
     justify-content:left;
     align-items: center;
     margin-bottom: 10px;
+    margin-top: 10px;
+    border: 2px solid rgb(17, 211, 224);
+    border-radius: 15px;
+    background-color: rgb(17, 211, 224);
 }
 
 .contact a{
@@ -99,6 +119,11 @@ body{
     margin-left: 10px;
     color: black;
     text-decoration: none;
+}
+
+.contact:hover{
+    cursor: pointer;
+    background-color: rgb(34, 100, 224)
 }
 
 .contact img{
@@ -118,5 +143,31 @@ body{
         border-radius: 50%;
         margin-top: 15px;
         margin-bottom: 10px;
+    }
+
+    .link-container{
+        flex-direction: column;
+        width: 320px;
+    }
+
+    .contacts-container{
+        margin: 20px 0px;
+        width: 300px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid white;
+    }
+
+    .drive-container{
+        margin: 20px 0px;
+        width: 300px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid white;
+    }
+
+    .whatsapp-container{
+        margin: 20px 0px;
+        width: 300px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid white;
     }
 }
